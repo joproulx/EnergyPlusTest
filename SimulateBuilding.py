@@ -101,7 +101,6 @@ def callback_function(s):
     if a.exchange.warmup_flag(s):
         return
     
-    
     #if get_by_api:
     #    a.exchange.set_actuator_value(s, oa_temp_actuator, get_new_outdoor_air_temp())
     if enableOverrideOutdoorTemp:
